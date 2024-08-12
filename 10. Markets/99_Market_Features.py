@@ -133,3 +133,4 @@ df.head()
 
 df_cleaned = clean_column_names(df)
 print(df_cleaned.head())
+df_cleaned.to_csv()
